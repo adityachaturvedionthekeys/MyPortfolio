@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Aditya Chaturvedi, Software Engineer">
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://ui-avatars.com;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <title>Aditya Chaturvedi | Software Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&family=Inter:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="light">
+    <canvas id="networkCanvas"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">AC<span>_</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">☀️</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="glass-section">
+            <div class="hero-content">
+                <div class="profile-img-container">
+                    <img src="https://ui-avatars.com/api/?name=Aditya+Chaturvedi&background=00ff88&color=0a0a0a&size=256&font-size=0.33&bold=true"
+                        alt="Aditya Chaturvedi" class="profile-img">
+                </div>
+                <h1 class="glitch" data-text="Aditya Chaturvedi">Aditya Chaturvedi</h1>
+                <h2 id="typing-text"></h2>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="glass-section reveal">
+            <h2 class="section-title">01. About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I am a <strong>B.Tech Computer Science student</strong> (2025-2029) at IILM University Gurugram,
+                        looking for an entry-level opportunity to build a career in software engineering.
+                    </p>
+                    <p>
+                        I am a quick learner, focused on understanding core technologies, and passionate about coding.
+                        Dedicated to working hard and delivering clean, reliable, and secure results.
+                    </p>
+                    <ul class="education-list">
+                        <li>
+                            <span class="edu-year">2025-2029</span>
+                            <span class="edu-title">BTech Computer Science & Engineering</span>
+                            <span class="edu-inst">IILM University Gurugram (CGPA: 8.53)</span>
+                        </li>
+                        <li>
+                            <span class="edu-year">2024-2025</span>
+                            <span class="edu-title">XII Class CBSE</span>
+                            <span class="edu-inst">MBIIS (88%)</span>
+                        </li>
+                        <li>
+                            <span class="edu-year">2022-2023</span>
+                            <span class="edu-title">X Class CBSE</span>
+                            <span class="edu-inst">MBIIS (89%)</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="security-badge">
+                    <div class="badge-icon">🔒</div>
+                    <h3>Security Focus</h3>
+                    <p>Building resilient, secure applications with a deep interest in cybersecurity protocols and
+                        dashboard monitoring.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="glass-section reveal">
+            <h2 class="section-title">02. Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Core Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">C</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">OOPS</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Concepts & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">DSA Fundamentals</span>
+                        <span class="tag">RDBMS Fundamentals</span>
+                        <span class="tag">Basic Linux Operations</span>
+                        <span class="tag">AI Assisted Development</span>
+                        <span class="tag">Git & GitHub</span>
+                        <span class="tag">CyberSecurity Concepts (Networking, Cyberlaws ISO27001, etc)</span>
+                    </div>
+                    <!-- </div>
+                <div class="skill-category">
+                    <h3>Cybersecurity</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Network Security</span>
+                        <span class="tag">Vulnerability Assessment</span>
+                        <span class="tag">Threat Analysis</span>
+                        <span class="tag">Security Monitoring</span>
+                    </div>
+                </div> -->
+                </div>
+        </section>
+
+        <section id="experience" class="glass-section reveal">
+            <h2 class="section-title">03. Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern</h3>
+                        <h4 class="company">BDO India Private Limited</h4>
+                        <span class="date">July 2024</span>
+                        <p>Completed a one-month internship focusing on cybersecurity and software development
+                            practices. During this tenure, I conceptualized and built the <strong>CyberSecurity
+                                Dashboard</strong> project to monitor and analyze security metrics effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="glass-section reveal">
+            <h2 class="section-title">04. Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CyberSecurity Dashboard</h3>
+                        <div class="project-links">
+                            <a href="https://cyber-security-dashboard--adityaatschool2.replit.app/" target="_blank"
+                                rel="noopener noreferrer">Live ↗</a>
+                        </div>
+                    </div>
+                    <p>A comprehensive dashboard created during my internship at BDO India to monitor, track, and
+                        visualize security incidents and system vulnerabilities.</p>
+                    <div class="project-tech">
+                        <span>Security</span>
+                        <span>Dashboard</span>
+                        <span>Data Visualization</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>SudoStudies</h3>
+                        <div class="project-links">
+                            <a href="https://sudostudies.vercel.app" target="_blank" rel="noopener noreferrer">Live
+                                ↗</a>
+                        </div>
+                    </div>
+                    <p>An AI-powered student resource hub designed to assist students with their academic queries and
+                        provide relevant study materials.</p>
+                    <div class="project-tech">
+                        <span>AI</span>
+                        <span>Web Dev</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>School DBMS</h3>
+                        <div class="project-links">
+                            <a href="https://cutt.ly/SchoolDBMS" target="_blank" rel="noopener noreferrer">Live ↗</a>
+                        </div>
+                    </div>
+                    <p>A complete Database Management System built for schools using SQL and Python to manage student
+                        and staff records.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>RDBMS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Udta Punjabi</h3>
+                        <div class="project-links">
+                            <a href="https://adityachaturvedionthekeys.github.io/shopping-website" target="_blank"
+                                rel="noopener noreferrer">Live ↗</a>
+                        </div>
+                    </div>
+                    <p>A dummy e-commerce shopping website tailored for Gen Z clothing wear, developed using AI
+                        assistance.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>AI Dev</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="glass-section reveal">
+            <h2 class="section-title">05. Connect</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new projects, entry-level opportunities, or ideas in software
+                    engineering and cybersecurity.</p>
+                <div class="contact-links">
+                    <a href="mailto:connected.aditya@gmail.com" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        connected.aditya@gmail.com
+                    </a>
+                    <a href="tel:+917042143364" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        +91 7042143364
+                    </a>
+                    <a href="https://www.linkedin.com/in/adityachaturvediconnected/" target="_blank"
+                        rel="noopener noreferrer" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/adityachaturvedionthekeys" target="_blank" rel="noopener noreferrer"
+                        class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aditya Chaturvedi. Built with security in mind.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
